@@ -26,6 +26,21 @@ it would be hard to understand the process
 About the model I will be building now :
 A e-commerce churn prediction model 
 
+features the churn model will have 
+( input labels )
+1.customer activity 
+2.website or app usage 
+3.customer experience
+4.target label ( out put )
+( we do have more sub features inside it it clearly indicates what actualy matters ) 
+-> learning to create a data set 
+1. manually creating 
+2. by using code ( python )
+both the methods will be done by me now 
+churn_data_manually.csv has the manually added one 
+generate_data.py has the python code whic created churn_data.csv
+
+
 
 
 
