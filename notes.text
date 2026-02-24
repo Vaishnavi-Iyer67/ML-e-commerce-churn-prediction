@@ -1,0 +1,31 @@
+This notes will help in understanding how the project will be built and also understanding the terms of ML 
+what is ML ?
+Machine learning includes training a model for some prediction .. imagine in the way that u see clouds and say it"s gonna rain today 
+in the same way we do give some data to a machine to get trained and predict and work for us 
+proper defination : Machine Learning is when a computer learns patterns from data and makes predictions without being explicitly programmed
+
+What is a feature?
+feature = input to the model 
+
+What is a label?
+label is called a target it clearly indicates what we want to predict 
+
+What is training/testing?
+training data = data the model learns from 
+testing data = testing the model from diff data to check if it actaully predicts by the pattren what it has learnt 
+
+What is a model?
+a system which learns the pattren 
+
+What is a dataset ? 
+it is a collection of info in table format 
+
+-> importance of knowing the data set : if we have no idea what do have in the dataset and what features in the dataset is the model using for prediction
+it would be hard to understand the process 
+
+About the model I will be building now :
+A e-commerce churn prediction model 
+
+
+
+
