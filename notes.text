@@ -40,7 +40,82 @@ both the methods will be done by me now
 churn_data_manually.csv has the manually added one 
 generate_data.py has the python code whic created churn_data.csv
 
+-> the main part has arrived now 
+we have used logistic regression ML algorithm here to train the model 
+why logistic regression ?
+basic and easy to learn 
+uses sigmoid function 
+basically used to predict yes or no that is zero or one 
+z = w1 * Age + w2 * TotalOrders + w3 * DaysAgo + b
+prob = 1 / (1 + e^-z)
+If z = big positive → prob close to 1
 
+If z = big negative → prob close to 0
 
+If z = 0 → prob = 0.5
+why sigmoid is usefull here ?
+Because probabilities MUST be between 0 and 1, and sigmoid guarantees that...
+Also…
+It is PERFECT for “yes/no” problems:
+churn / not churn
+since we clearly understood and learnt about the tarining algorithm no we will go to the next step 
+Model evaluation 
+1. what is model evaluation ?
+checking how good the trained model is and there will be a lot of evaluation factors for different type of models used 
+regression model may be evaluated by some features and logistic with some other etc  basically it depends on what model are we building 
+Is it accurate?
 
+Can it predict new data correctly?
+
+Is it reliable for real-world use? these are questions answered by model evaluation 
+what and come under evaluating a model they are ( for this model logistic regression and for churn prediction )
+Confusion Matrix
+
+Precision
+
+Recall
+
+F1 Score
+
+ROC-AUC( they all are not LR only features evaluation depends on which evaluation will actually matter for the model  )
+Recall → did we catch actual churners?
+
+Precision → are our churn predictions correct?
+
+AUC → can the model separate churn vs not?
+Example: Churn prediction
+// what is this actaully? understand with examples 
+Goal = catch as many churners as possible
+→ RECALL is most important
+
+Example: Fraud detection
+
+Goal = avoid accusing innocent users
+→ PRECISION is important
+
+Example: Medical diagnosis
+
+Goal = don’t miss a sick patient
+→ RECALL is very important
+
+Example: Spam detection
+
+Goal = don’t put real emails in spam
+→ PRECISION is important
+
+Different problem → different metric matters.( important to understand this )
+//why are these metrics needed ? how do they help us ? 
+ These metrics guide model improvement
+
+They tell engineers:
+
+Do we need more data?
+
+Do we need balancing?
+
+Do we need new features?
+
+Is model underfitting or overfitting?
+
+Do we need a different algorithm?
 
